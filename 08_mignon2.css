@@ -1,0 +1,38 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td{
+    height: 20px;
+
+    width: 20px;
+}
+
+.noir{
+    background-color: black;
+}
+
+.marron{
+    background-color: rgb(88, 41, 3);
+}
+
+.marron-clair{
+    background-color: rgb(172, 125, 64);
+}
+
+.peau{
+    background-color: rgb(233, 185, 131);
+}
+
+.ombre{
+    background-color: rgb(221, 150, 84);
+}
+
+.vert{
+    background-color: rgb(10, 107, 10);
+}

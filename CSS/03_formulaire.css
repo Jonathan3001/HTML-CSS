@@ -1,0 +1,6 @@
+label {
+     float: left; /* FLOAT => j'abligne un élément ici sur la gauche */
+     width: 190px; /* largeur de mon label */
+     color: rgb(255, 255, 255); /*couleur du texte */
+     background: #cc3d74;  /*couleur de fond en code hexadecimal ou RVB*/       
+}

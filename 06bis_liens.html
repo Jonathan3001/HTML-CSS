@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="06bis_liens.css"
+    <title>Les liens</title>
+</head>
+<body>
+    <h1> Les liens d'une page HTML ou la navigation</h1>
+
+    <h2 id="top">Les ancres : liens dans la même page</h2>
+
+        <!-- (p>a)*8 -->
+        <p><a href=""></a></p>
+        <p><a href=""></a></p>
+        <p><a href=""></a></p>
+        <p><a href=""></a></p>
+        <p><a href=""></a></p>
+        <p><a href=""></a></p>
+        <p><a href=""></a></p>
+        <p><a href=""></a></p>
+
+        <!-- h2#intérieur -->
+        <h2 id="interieur">Une autre page du même site</h2>
+        <a href="06bis_liens2.html">Cliquer ici pour aller en page 2</a>
+        <a href="#top">Remonter</a>
+        <hr>
+
+        <!-- h2#onglet -->
+        <h2 id="ontglet">Un nouvel onglet</h2>
+        <a href="06bis_liens2.html" target="_blank">Cliquer ici pour aller en page 2</a>
+        <a href="#top">Remonter</a>
+        <hr>
+
+        <!-- h2#site -->
+        <h2 id="site">Un autre site</h2>
+        <a href="http://www.20minutes.fr" title="Site d'actualités">L'attribut TITLE affiche une info-bulle au survol de la souris</a>
+        <!-- h2#telecharger -->
+        <hr>
+
+        <h2 id="telecharger">Télécharger un fichier</h2>
+        <a href="IMG/document.doc">Télécharger le document</a>
+        <a href ="#top">Remonter</a>
+        <hr>
+
+        <!-- h2#visualiser -->
+        <h2 id="visualiser">Ouvrir un PDF dans mon navigateur</h2>
+        <a href="IMG/image.pdf">Visualiser le fichier</a>
+        <a href="#top">Remonter</a>
+        <hr>
+
+        <!-- h2#download -->
+        <h2 id="download">Télécharger un PDF</h2>
+        <a href="IMG/image.pdf" download>L'attribut DOWNLOAD propose de télécharger le fichier</a>
+        <hr>
+
+        <!-- h2#image -->
+        <h2 id="image">Mettre un lien sur une image</h2>
+        <a href="http://marketplace.visualstudio.com/items?itemName=bradgashler.htmltagwrap">
+        <img src="IMG/image.jpg" alt="lion"></a>
+        <a href="#top">Remonter</a>
+        <hr>
+        
+        <!-- h2#print -->
+        <h2 id="print">Imprimer la page en cours</h2>
+        <a href="" onClick="window.print()">onClick => je detecte si on a cliqué / window => la page html actuelle / print () => fonction JavaScript pour imprimer</a>
+        <a href ="#top">Remonter</a>
+        <hr>
+
+        
+
+    </body>
+</html>
