@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image</title>
+    <link rel="stylesheet" href="../css/site_complet.css">
+    <!-- Choisissez une police Google Fonts et ajoutez-là ici : -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!-- on ira ajouter dans le CSS ensuite : font-family: 'Lobster', cursive; -->
+    <!-- <link rel="stylesheet" href="../font-awesome/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <meta name="description" content="site HTML - CSS">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button">
+                    <i class="fas fa-arrow-circle-up" aria-hidden="true"></i>
+                    <!-- fa => classe de FontAwesome -->
+                    <!-- aria-... accès de contenus web plus faciles pour les handicapés => https://developper.mozilla.org/fr/docs/Accessibilit%C3%a9/ARIA -->
+                </button>
+            </a>
+            <img src="../img/logo.png" alt="logo">
+        </div>
+
+        <div id="slogan">
+            <h1>Site HTML CSS multipages</h1>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <a href="site_complet.html">Accueil</a>
+        <a href="texte.html">Texte</a>
+        <a href="selecteur.html">Selecteur</a>
+        <a href="image.html" class="activ">Image</a>
+        <a href="position.html">Position</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="liste.html">Liste</a>
+        <a href="lien_menu.html">Lien & Menu</a>
+        <a href="formulaire.html">Formulaire</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="animation.html">Animation</a>
+    </nav>
+    <main>
+        <h2>Image</h2>
+        <div>
+            <h3 id="imgcss">Image de fond en CSS</h3>
+            <img src="fond.jpg" alt="fond">
+            <section class="textefond">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente voluptas magnam earum quasi esse quae velit incidunt maiores praesentium est eos, consequatur porro, ducimus expedita ad, voluptate nobis laudantium quaerat!
+                Animi praesentium non corrupti totam, odit harum placeat quasi possimus cumque fugiat sit accusantium nobis mollitia soluta deleniti eligendi! Aliquam hic enim quibusdam ullam deserunt odit expedita incidunt earum facere.
+                Quos reiciendis nam veniam consectetur optio in accusantium delectus perspiciatis nisi provident! Incidunt voluptates libero doloremque at rerum, laboriosam eius architecto aut nobis suscipit adipisci velit eos harum impedit saepe?
+            </section>
+        </div>
+        <div class="bcg1">
+            <h3>Image de fond en HTML</h3>
+            <img src="toureiffel.jpg" alt="toureiffel" class="eiffel">
+        </div>
+        <div class="bcg2">
+            <h3 class="imagefond">Image de fond en HTML/CSS</h3>
+            <div class="img12">
+                <img src="image.jpg" alt="image" class="img1">
+                <img src="image.jpg" alt="image" class="img2">
+            </div>
+            <div>
+                <img src="image.jpg" alt="image" class="img3">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- Zone du bas, ex: liens administratifs, mentions légales, plan du site, CGU, CGV, contact, copyright -->
+    </footer>
+    </body>
+    
+    </html>

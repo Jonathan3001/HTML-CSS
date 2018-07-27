@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Position</title>
+    <link rel="stylesheet" href="../css/site_complet.css">
+    <!-- Choisissez une police Google Fonts et ajoutez-là ici : -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!-- on ira ajouter dans le CSS ensuite : font-family: 'Lobster', cursive; -->
+    <!-- <link rel="stylesheet" href="../font-awesome/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <meta name="description" content="site HTML - CSS">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <!-- <a href="#logo">
+                <button type="button">
+                    <i class="fas fa-arrow-circle-up" aria-hidden="true"></i> -->
+                    <!-- fa => classe de FontAwesome -->
+                    <!-- aria-... accès de contenus web plus faciles pour les handicapés => https://developper.mozilla.org/fr/docs/Accessibilit%C3%a9/ARIA -->
+                <!-- </button>
+            </a> -->
+            <img src="../img/logo.png" alt="logo">
+        </div>
+
+        <div id="slogan">
+            <h1>Site HTML CSS multipages</h1>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <a href="site_complet.html">Accueil</a>
+        <a href="texte.html">Texte</a>
+        <a href="selecteur.html">Selecteur</a>
+        <a href="image.html">Image</a>
+        <a href="position.html" class="activ">Position</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="liste.html">Liste</a>
+        <a href="lien_menu.html">Lien & Menu</a>
+        <a href="formulaire.html">Formulaire</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="animation.html">Animation</a>
+    </nav>
+    <main>
+        <h2>position</h2>
+        <section>
+            <h3>Centrer un élément de type block</h3>
+            <div class="centre"></div>
+        </section>
+        <section>
+            <h3>Position absolute</h3>
+            <p>Carré Jaune... en haut</p>
+            <div class="absolute"></div>
+        </section>
+        <section>
+            <h3>Position relative</h3>
+            <div class="relative">
+                <div></div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Position fixed</h3>
+            <p>Le bouton de retour vers la haut</p>
+        </section>
+
+        <!-- POURCENTAGE -->
+
+        <section>
+            <h3>Pourcentage</h3>
+            <div class="trente">30%</div>
+            <div class="cinquante">50%</div>
+            <div class="cent">100%</div>
+        </section>
+
+        <!-- L'ATTRIBUT FLOAT -->
+
+        <section>
+            <div class="un">1</div>
+            <div class="deux">2</div>
+            <div class="trois">3</div>
+            <div class="quatre">4</div>
+            <div class="clear"></div>
+            <div class="cinq">5</div>
+            <div class="six">6</div>
+            <div class="sept">7</div>
+            <div class="clear"></div>
+            <div class="huit">8</div>
+            <div class="neuf">9</div>
+            <div class="clear"></div>
+            <div class="dix">10</div>
+        </section>
+
+        <!-- EXERCICE SUR LE FLOAT -->
+
+        <section class="float">
+            <div class="bloc1"></div>
+            <div class="bloc2"></div>
+            <div class="bloc3"></div>
+            <div class="bloc4"></div>
+        </section>
+
+        <!-- FLEXBOX -->
+
+        <section class="flexbox">
+            <div class="box1">1</div>
+            <div class="box2">2</div>
+            <div class="box3">3</div>
+            <div class="box4">4</div>
+            <div class="clear"></div>
+        </section>
+
+    </main>
+    <div>
+        <a href="#logo">
+            <button type="button">
+                <i class="fas fa-arrow-circle-up" aria-hidden="true"></i>
+                <!-- fa => classe de FontAwesome -->
+                <!-- aria-... accès de contenus web plus faciles pour les handicapés => https://developper.mozilla.org/fr/docs/Accessibilit%C3%a9/ARIA -->
+            </button>
+        </a>
+    </div>
+    <footer>
+        <!-- Zone du bas, ex: liens administratifs, mentions légales, plan du site, CGU, CGV, contact, copyright -->
+    </footer>
+</body>    
+</html>
