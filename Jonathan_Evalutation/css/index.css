@@ -1,0 +1,183 @@
+/* ----- POLICE PAR DEFAUT ----- */
+
+*{
+    font-family: Arial, sans-serif;
+}
+
+/* ---- DEBUT HEADER ----- */
+
+
+h1{
+    color: #C55394;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    position: relative;
+    top: 300px;
+}
+
+#rainbow{
+    position: relative;
+    left: 35%;
+    top: 155px;
+}
+
+/* ----- FIN HEADER ----- */
+
+/* ----- DEBUT NAV ----- */
+
+nav{
+    background-color: #C55394;
+    position: relative;
+    bottom: 368px;
+    height: 55px;
+}
+
+nav a:hover{
+    background-color: #EB43A3;    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+#myUnicorn{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.principe{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    left: 66%;
+}
+
+#nosLicornes{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    left: 68%;
+}
+
+#nousTrouver{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    left: 70%;
+}
+
+/* ----- FIN NAV ----- */
+
+/* ----- DEBUT BODY ----- */
+
+body{
+    background-image: url(../img/background.png);
+}
+
+section{
+    border: 1px;
+    border-radius: 10px 10px;
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px #333;
+}
+
+h2{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+}
+    
+.img1, .img2, .img3, .img4{
+    height: 250px;
+}
+
+#img1, #img2, #img3, #img4{
+    float: left;
+}
+
+#imgLicorne figure{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#imgLicorne figure:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+figcaption{
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    padding: 5px;
+}
+
+h4{
+    font-family: 'Courgette', cursive;
+    color: #EB43A3;
+}
+
+#contact{
+    float: right;
+    position: relative;
+    bottom: 450px;
+    right: 300px;
+}
+
+fieldset{
+    border: none;
+}
+
+.email{
+    text-align: center;
+}
+
+.button{
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    background-color: #EB43A3;
+    border: 1px solid #EB43A3;
+    border-radius: 5px 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+/* ----- FIN BODY ----- */
+
+/* ----- DEBUT FOOTER ----- */
+
+footer{
+    background-color: #E577B5;
+    color: #fff;
+    text-align: right;
+    margin-top: 50px;
+    height: 40px;
+}
+
+.copyright{
+    position: relative;
+    left: 685px;
+}
+
+.imgCopyright{
+    height: 12px;
+}
+
+/* ----- FIN FOOTER ----- */
+
+.clear{
+    clear: both;
+}

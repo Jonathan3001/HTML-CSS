@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site complet</title>
+    <link rel="stylesheet" href="../css/site_complet.css">
+    <!-- Choisissez une police Google Fonts et ajoutez-là ici : -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!-- on ira ajouter dans le CSS ensuite : font-family: 'Lobster', cursive; -->
+    <!-- <link rel="stylesheet" href="../font-awesome/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <meta name="description" content="site HTML - CSS">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button">
+                    <i class="fas fa-arrow-circle-up" aria-hidden="true"></i>
+                    <!-- fa => classe de FontAwesome -->
+                    <!-- aria-... accès de contenus web plus faciles pour les handicapés => https://developper.mozilla.org/fr/docs/Accessibilit%C3%a9/ARIA -->
+                </button>
+            </a>
+            <img src="../img/logo.png" alt="logo">
+        </div>
+
+        <div id="slogan">
+            <h1>Site HTML CSS multipages</h1>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <a href="site_complet.html">Accueil</a>
+        <a href="texte.html">Texte</a>
+        <a href="selecteur.html">Selecteur</a>
+        <a href="image.html">Image</a>
+        <a href="position.html">Position</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="liste.html">Liste</a>
+        <a href="lien_menu.html" class="activ">Lien & Menu</a>
+        <a href="formulaire.html">Formulaire</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="animation.html">Animation</a>
+
+    </nav>
+
+    <main>
+        <h2>Liens & Menus</h2>
+        <div id="lien">
+            <a href="#" class="lien">Les Liens</a>
+            <a href="#" class="lien">Menu</a>
+            <a href="#" class="lien">Menu déroulant</a>
+        </div>
+
+        <!-- ***** Les Liens ***** -->
+
+        <h3>Les Liens</h3>
+        <div>
+            <a href="#" class="lien2">Code Pen </a>is a social development environment for front-end designers and developers<br><br>
+            <a href="#" class="lien2">Google </a>le moteur de recherche<br><br>
+            <a href="#" download="" class="lien2">Télécharger mon CV</a><br><br>
+            <a href="#" download="" class="lien2">Voir mon CV</a><br><br>
+            <a href="#" onclick="windows.print()" class="lien2">Imprimer la page</a><br><br>
+            <img src="facebook.ico"><br><br>
+            Cliquer <a href="#" class="lien2">ici </a>pour vous rendre sur la page
+        </div>
+
+        <!-- ***** Menu ***** -->
+
+        <h3>Menu</h3>
+        <section id="menu2">
+            <a href="#" class="menu2">Accueil</a>
+            <a href="#" class="menu2">Parcours</a>
+            <a href="#" class="menu2">Réalisations</a>
+            <a href="#" class="menu2">Contact</a>
+        </section>
+
+        <!-- ***** MENU DEROULANT ***** -->
+
+        <section id="menuDeroulant"></section>
+        <h3>Menu déroulant</h3>
+        <nav>
+            <ul class="niveau1">
+                <li>               
+                    <a href="#">Accueil</a>
+                </li>
+                <li class="sousMenu">
+                    <a href="#">Formation</a>        
+                    <ul class="niveau2">        
+                        <li>
+                            <a href="#">Etudiants</a>
+                        </li>        
+                        <li>
+                            <a href="#">Emploi du temps</a>
+                        </li>        
+                        <li>
+                            <a href="#">Recherche d'emploi</a>
+                        </li>        
+                        <li>
+                            <a href="#">Documents</a>
+                        </li>        
+                    </ul>        
+                </li>        
+                <li>
+                    <a href="#">Informations</a>
+                </li>        
+                <li class="sousMenu">
+                    <a href="#">Cours</a>        
+                    <ul class="niveau2">        
+                        <li>
+                            <a href="#">Internet</a>
+                        </li>        
+                        <li>
+                            <a href="#">HTML/CSS</a>
+                        </li>        
+                        <li>
+                            <a href="#">CMS</a>
+                        </li>        
+                        <li>
+                            <a href="#">Stats</a>
+                        </li>        
+                        <li>
+                            <a href="#">Réseaux sociaux</a>
+                        </li>        
+                        <li>
+                            <a href="#">Référencement</a>
+                        </li>        
+                        <li>
+                            <a href="#">Marketing</a>
+                        </li>        
+                        <li>
+                            <a href="#">Cachier des charges</a>
+                        </li>        
+                        <li>
+                            <a href="#">Photoshop</a>
+                        </li>        
+                    </ul>        
+                </li>        
+                <li>
+                    <a href="#">Mon CV</a>
+                </li>        
+            </ul>        
+        </nav>
+    </main>
+
+    <footer>
+        <!-- Zone du bas, ex: liens administratifs, mentions légales, plan du site, CGU, CGV, contact, -->
+    </footer>
+    </body>
+    
+    </html>

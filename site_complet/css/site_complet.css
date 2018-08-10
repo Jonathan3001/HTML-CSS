@@ -218,7 +218,7 @@ section{
     color: #a6d6c3;
 }
 
-/* La speudo-classe :last-of-type cible un élément qui est le dernier enfant d'un type donné dasn la liste des enfants de l'élément parent. */
+/* La pseudo-classe :last-of-type cible un élément qui est le dernier enfant d'un type donné dans la liste des enfants de l'élément parent. */
 
 .select p:nth-of-type(5), .select p:nth-of-type(6){
     color: black;
@@ -282,6 +282,7 @@ section{
     position: relative;
     left: 37%;
     margin-bottom: 100px;
+    
 }
 
 .imagefond{
@@ -519,6 +520,166 @@ button{
     font-size: 45px;
 }
 
+/* ----- EXERCICE SUR LE FLOAT 2 : TP Miaou 1 ----- */
+
+#miaou{
+    background-color: rgb(38, 58, 122);
+}
+
+#mission{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.chat01{
+    float: left;
+    padding: 5%;
+    position: relative;
+    left: 120px;
+}
+
+.chat02{
+    float: left;
+    padding: 5%;
+    position: relative;
+    left: 10%;
+}
+
+.chat03{
+    float: left;
+    padding: 5%;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.chat04{
+    float: left;
+    padding: 5%;
+    position: relative;
+    left: 100px;
+    bottom: 45px;
+}
+
+.chat05{
+    float: left;
+    padding: 5%;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
+
+.chat06{
+    float: left;
+    padding: 5%;
+    position: relative;
+    right: 10px;
+    bottom: 65px;
+}
+
+.chat07{
+    float: left;
+    padding: 5%;
+    position: relative;
+    left: 85px;
+    bottom: 95px;
+}
+
+.chat08{
+    float: left;
+    padding: 5%;
+    position: relative;
+    left: 65px;
+    bottom: 90px;
+}
+
+.chat09{
+    padding: 5%;
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+}
+
+
+.clear{
+    clear: both;
+}
+
+/* ----- EXERCICE SUR LE FLOAT 2 : TP Miaou 1 ----- */
+
+.chat1{
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 40px;
+    color: whitesmoke;    
+}
+
+.chat2{
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 50px;
+    color: whitesmoke;    
+}
+
+.chat3{
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 65px;
+    top: 20px;
+    color: whitesmoke;    
+}
+
+.chat4{
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 60px;
+    color: whitesmoke;    
+}
+
+.chat5{
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+.chat6{
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+}
+
+.chat7{
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 70px;
+    top: 25px;
+}
+
+.chat8{
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 220px;
+    bottom: 15px;
+}
+
+.chat9{
+    padding: 20px;
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+}
+
+
 /* ----- FIN PAGE POSITION */
 
 /* ----- DEBUT PAGE ZONING ----- */
@@ -725,6 +886,508 @@ button{
     background-color: rgb(233, 203, 123);
     height: 10%;
 }
+
+/* ----- ZONING 6 ----- */
+
+#zoning6{
+    width: 90%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#entete{
+
+}
+
+.haut1{
+    background-color: rgb(42, 47, 122);
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.haut2{
+    background-color: rgb(50, 99, 206);
+    float: left;
+    width: 460px;
+    height: 200px;
+}
+
+.haut3{
+    background-color: rgb(42, 47, 122);
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.menu{
+    background-color: rgb(42, 94, 72);
+    height: 35px;
+}
+
+#contenu{
+    height: 700px;
+}
+
+.leftzone{
+    background: rgb(75, 97, 138);
+    height: 700px;
+    width: 175px;
+}
+
+.slideshow{
+    background-color: rgb(59, 69, 92);
+    position: relative;
+    bottom: 700px;
+    width: 685px;
+    left: 175px;
+    height: 250px;
+}
+
+.cdzoneef{
+
+}
+
+#azoneb{
+    position: relative;
+    left: 175px;
+    bottom: 700px;
+    height: 255px;
+}
+
+.Azone{
+    background-color: rgb(190, 189, 189);
+    float: left;
+    width: 340px;
+    height: 255px;
+}
+
+.Bzone{
+    background-color: rgb(42, 47, 122);
+    float: left;
+    width: 345px;
+    height: 255px;
+}
+
+.Czone{
+    background-color: rgb(190, 189, 189);
+    float: left;
+    width: 171px;
+    position: relative;
+    bottom: 700px;
+    left: 175px;
+    height: 195px;
+}
+
+.Dzone{
+    background-color: rgb(42, 47, 122);
+    float: left;
+    width: 171px;
+    position: relative;
+    bottom: 700px;
+    left: 175px;
+    height: 195px;
+}
+
+.Ezone{
+    background-color: rgb(202, 199, 199);
+    float: left;
+    width: 171px;
+    position: relative;
+    bottom: 700px;
+    left: 175px;
+    height: 195px;
+}
+
+.Fzone{
+    background-color: rgb(42, 47, 122);
+    float: left;
+    width: 172px;
+    position: relative;
+    bottom: 700px;
+    left: 175px;
+    height: 195px;
+}
+
+#bas{
+    background-color: rgb(32, 73, 126);
+    height: 50px;
+}
+
+/* ----- FIN PAGE ZONING ----- */
+
+/* -----DEBUT PAGE TABLEAU */
+
+table{
+   border: 4px solid rgb(55, 165, 255);
+   border-collapse: collapse;
+   width: 90%;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+
+thead, tfoot{
+    background-color: rgb(163, 201, 231);
+    border: 2px solid rgb(55, 165, 255);
+}
+
+tr{
+    border: 1px solid rgb(55, 165, 255);
+}
+
+td{
+    border: 1px solid rgb(55, 165, 255);
+    padding: 5px;
+}
+
+/* ----- FIN PAGE TABLEAU ----- */
+
+/* ----- DEBUT PAGE LISTES ----- */
+
+ul.fruit{
+    list-style: none;
+}
+
+ul.fruit li{
+    display: inline;
+    margin: 15px;
+}
+
+.liste{
+    display: inline;
+}
+
+li{
+    margin-left: 30px;
+}
+
+/* ----- FIN PAGE LISTE ----- */
+
+/* ----- DEBUT PAGE LIENS ET MENUS ----- */
+
+#lien{
+    text-align: center;
+}
+
+.lien{
+    text-decoration: none;
+    border: 2px solid rgb(26, 26, 66);
+    color: whitesmoke;
+    background-color: rgb(26, 26, 66);
+    border-radius: 20px 20px;
+    margin-left: 50px;
+    padding: 5px;
+    box-shadow: 0 0 20px rgb(26, 26, 66);
+}
+
+.lien2{
+    text-decoration: none;
+}
+
+#menu2{
+    text-align: center;
+}
+
+.menu2{
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    color: rgb(116, 109, 109);
+    border-radius: 10px 0;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+
+/* ----- Menu déroulant ----- */
+
+#menuDeroulant{}
+
+#menuDeroulant ul.li{
+    
+}
+
+/* ----- FIN PAGE LIENS & MENU ----- */
+
+/* ----- DEBUT PAGE FORMULAIRE ----- */
+
+form{
+    width: 75%;
+    margin: auto;
+}
+
+fieldset{
+    border: 1px solid rgb(37, 54, 110);
+    background-color: rgb(37, 54, 110);
+    border-radius: 10px 10px;
+    color: whitesmoke;
+}
+
+label{
+}
+
+input{
+    text-align: center;
+}
+
+/* ----- FIN PAGE FORMULAIRE ----- */
+
+/* ----- DEBUT PAGE MULTIMEDIA ----- */
+
+.videoFond{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.videoFond video{
+    position: absolute;
+    z-index: 1; /*ordre de superposition des éléments sur l'axe vertical et /!\ ne fonctionne que sur un élément ayant une position (relative, fixe ou absolute)*/
+    width: 100%;
+}
+
+.videoTexte{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.videoFond p{
+    position: absolute;
+    z-index: 2; /* il sera visuellement au-dessus de la video z-index: 1 */
+    width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.60);
+    left: 250px;
+    top: 150px;
+    padding: 20px;
+    font-size: 120%;
+    border-radius: 10px;
+}
+
+iframe[src="https://www.youtube.com/embed/MHYWgf3VqoY"]{
+    width: 100%;
+}
+
+.audio{
+    text-align: center;
+}
+
+iframe[allowfullscreen]{
+    width: 100%;
+}
+
+/* ----- FIN PAGE MULTIMEDIA ----- */
+
+/* ----- DEBUT PAGE ANIMATION ----- */
+
+/* Infobulle */
+
+.infoBulle{
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    padding-top: 15px;
+    background: #444;
+    box-shadow: 0 0 50px #222 inset; /* inset place l'ombre à l'intérieur */
+}
+
+.infoBulle p{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.infoBulle a{
+    color: #ccc;
+    text-shadow: 0 -2px 0 black;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+.infoBulle a:hover{
+    text-shadow: 0 1px 2px black;
+    background: rgba(0, 0, 0, .4); /* .4 = 0.4*/
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+    color: #fff;
+}
+
+.infoBulle a span{
+    position: absolute;
+    padding: 15px;
+    margin-top: 23px;
+    margin-left: 35px;
+    background: rgba(0, 0, 0, .9);
+    opacity: 0;
+    color: #09c;
+    transform: scale(0) rotateZ(-12deg); /* rotation sur l'axe vertical
+    scale() => échelle taille du zoom */
+    transition: .25s;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+}
+
+.infoBulle a:hover span{
+    opacity: 1;
+    transform: scale(1) rotateZ(0);
+}
+
+.infoBulle a span:before{ /*:before =>on inject quelque chose avant*/
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    border-bottom: 6px solid rgba(0, 0, 0, .9);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+
+/*  Images en gris (grayscale) et flouté (blur) */
+.imgEffects{
+    width: 302px;
+    height: 320px;
+    margin: 70px auto;
+}
+
+.imgEffects li{
+    list-style: none;
+    float: left;
+    width: 141px;
+    height: 150px;
+    margin: 5px;
+}
+
+.imgEffects img{
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    box-shadow: 0 0 3px black;
+    transition: .5s cubic-bezier(0, 3, .4, 1);
+    /* cubic-bezier commence par 0 et se termine par 1 puis entre nous mettrons nos valeurs => http://cubic-bezier.com*/
+}
+
+.imgEffects li:hover img{
+    z-index: 2;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px black;
+}
+
+.imgEffects:hover li:not(:hover) img{
+    filter: grayscale(1) blur(5px);
+}
+
+/* rotation du menu */
+
+#menuRotate{
+    height: 360px;
+    width: 576px;
+    margin: 100px auto;
+    background: #627878;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+#menuRotate .masque{
+    position: absolute;
+    z-index: 50;
+    width: 585px;
+    height: 135px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#324040, #627878);
+}
+
+#menuRotate .ombre{
+    position: absolute;
+    z-index: 40;
+    width: 300px;
+    height: 6px;
+    box-shadow: 0px 100px 3px black;
+    border-radius: 75px 75px 75px 75px / 3px 3px 3px 3px; /* rayons horizontaux / verticaux */
+    top: 30px;
+    left: 142px;
+}
+
+#menuRotate dl{
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    height: 155px;
+    color: #324040;
+    text-align: center;
+    background: #04b3d2;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+    transform-origin: 50% 120px;
+    animation: bounceOut 0.7s ease-in-out;
+}
+
+#menuRotate dt{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 23px;
+    padding-top: 5px;
+}
+
+#menuRotate dd{
+    transform: rotate(180deg);
+}
+
+#menuRotate dd a{
+    display: block;
+    height: 24px;
+    padding: 3px 0;
+    color: #324040;
+    text-decoration: none;
+}
+
+#menuRotate dd a:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#menuRotate dl:hover{
+    transform: rotate(-180deg);
+    animation: bounceIn 0.7s ease-in-out;
+}
+
+/* 
+Les keyframes représentent le déroulement de votre animation. Les valeurs en pourcentage représentent un moment temporel précis au cours de la durée de votre animation. Ainsi, 10% représentera la 6ème seconde d'une animation durant une minute. Les keyframes 0% et 100% sont obligatoire et que leur omission empêchera le fonctionnement de votre animation sur certains navigateurs */
+
+@keyframes bounceIn{
+    from{
+        transform: rotate(0deg);
+}
+    75%{
+        transform: rotate(-200deg);
+}
+    90%{
+        transform: rotate(-175deg);
+    }
+    to{
+        transform: rotate(-180deg);
+    }
+}
+
+@keyframes bounceOut{
+    from{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: rotate(-180deg);
+    }
+    10%{
+        transform: rotate(-165deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+/* ----- FIN PAGE ANIMATION ----- */
 
 footer{
     background: #2980b9;
